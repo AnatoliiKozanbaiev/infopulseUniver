@@ -1,0 +1,14 @@
+.b-ajax_status_error .b-ajax__submit
+{
+background: red;
+}
+
+.b-ajax_status_ok .b-ajax__submit
+{
+background: green;
+}
+
+.b-ajax_status_progress .b-ajax__submit
+{
+background: transparent url(../images/progress.gif) no-repeat center;
+}

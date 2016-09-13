@@ -1,0 +1,17 @@
+
+.b-pad {
+    background: none repeat scroll 0 0 #90EE90;
+    height: 555px;
+    width: 555px;
+	position: absolute;
+	top:	100px;
+	left: 200px;
+}
+.b-pad__coord {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: inline-block;
+    height: 1em;
+    margin: 5px;
+    width: 255px;
+}
+

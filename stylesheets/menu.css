@@ -1,0 +1,49 @@
+
+.b-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.b-menu__item {
+    background: none repeat scroll 0 0 #EEEEEE;
+    display: inline-block;
+    vertical-align: top;
+}
+.b-menu__link {
+    display: inline-block;
+    padding: 3px 5px;
+}
+.b-submenu {
+    background: none repeat scroll 0 0 #DDDDDD;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+	display: none;			/* фактическое наличие */
+	opacity: 0;				/* прозрачность */
+	2visibility: hidden;
+	2transition: visibility 0.4s, opacity 0.4s;
+}
+
+.b-submenu_shown {
+	2visibility: visible;
+	1opacity: 1;
+	display: block;
+	}
+		
+.b-submenu__item {
+}
+.b-submenu__link {
+    display: block;
+    padding: 3px 10px;
+}
+
+
+.b-submenu__link:hover {
+    background: none repeat scroll 0 0 #ADD8E6;
+}
+.b-menu__link:hover {
+    background: none repeat scroll 0 0 #00008B;
+    color: #FFFFFF;
+}

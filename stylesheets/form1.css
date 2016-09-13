@@ -1,0 +1,30 @@
+.b-textfield_error
+{
+box-shadow:		0 0 2px red;
+}
+
+.b-form__message {
+    border: 1px solid;
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 10px;
+	display: none;
+}
+.b-form__message_error {
+    background: none repeat scroll 0 0 #FF0000;
+    border-color: #E30000;
+    color: #FFFFFF;
+}
+
+
+.tooltip {
+    background: none repeat scroll 0 0 pink;
+    border: 1px solid red;
+    display: none;
+    margin: -14px 0 0;
+    padding: 3px 12px;
+    position: absolute;
+}
+.b-textfield_error + .tooltip {
+    display: inline-block;
+}

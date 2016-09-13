@@ -1,0 +1,70 @@
+
+.b-minicart {
+    left: 50%;
+    position: fixed;
+    top: 0;
+}
+.b-minicart__list {
+    background: none repeat scroll 0 0 #ccffcc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+    padding: 10px;
+    width: 400px;
+}
+.b-minicart__button {
+    background: none repeat scroll 0 0 lightgreen;
+    border-radius: 0 0 5px 5px;
+    display: inline-block;
+    padding: 3px;
+}
+.b-minicart__order {
+}
+.b-minicart__total {
+}
+.b-minicart__quantity {
+}
+.b-goods {
+}
+.b-goods_cart {
+}
+.b-good {
+}
+
+.b-goods_cart .b-good:first-child {
+    display: none;
+}
+
+.b-good__image-td {
+}
+.b-good__image {
+}
+.b-good__info {
+}
+.b-good__name {
+}
+.b-good__price {
+}
+.b-order-form {
+}
+
+.b-good_in-cart .b-order-form {
+    background: none repeat scroll 0 0 lightgreen;
+}
+.b-order-form__quantity {
+	width: 50px;
+}
+.b-order-form__plus {
+}
+.b-order-form__minus {
+}
+.b-order-form__order {
+}
+.b-good__delete-td {
+}
+.b-good__delete {
+}
+.b-good__delete-icon {
+}
+.b-good__description {
+}
